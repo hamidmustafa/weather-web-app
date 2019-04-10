@@ -57,7 +57,7 @@ body {
 }
 
  .city-icon {
-     height: 80%;
+    height: 80%;
     width: 50%;
     border-bottom-left-radius: 25px;
     background-color: #D1E319
@@ -82,13 +82,7 @@ body {
     background-color: #339CFF;
 }
 
-  #search-btn {
-    width: 40px;
-    height:40px;
-    color: #eee;
-}
-
-  #search-location {
+#search-location {
     color: #707570;
     height:30px;
     border-radius: 10px;
@@ -97,19 +91,21 @@ body {
     padding-right:1px;
     padding-left:1px;
     text-align:center;
+    
 }
   
   .search {
     position: relative;
-    left: 50%;
+    left: 51%;
     top:50%;
     -webkit-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%);
 } 
 
-.button {
-    background-color: #4CAF50;
+.search-btn {
+    background-color: #C0C0C0;
     border: none;
+    border-radius: 4px;
     color: white;
     padding: 10px;
     text-align: center;
@@ -122,4 +118,3 @@ body {
     cursor: pointer;
   }
   
-  .button2 {border-radius: 4px;}
